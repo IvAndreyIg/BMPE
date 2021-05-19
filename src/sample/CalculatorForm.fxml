@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.collections.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.collections.FXCollections?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="616.0" prefWidth="1158.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Calculator">
+   <children>
+
+               <TextArea fx:id="TextArea1" layoutX="86.0" layoutY="35.0" prefHeight="127.0" prefWidth="930.0" />
+               <TextArea fx:id="TextArea2" layoutX="86.0" layoutY="236.0" prefHeight="127.0" prefWidth="930.0" />
+               <ChoiceBox fx:id="CBsign" cache="true" layoutX="527.0" layoutY="175.0" prefHeight="51.0" prefWidth="81.0">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="+" />
+                           <String fx:value="-" />
+                           <String fx:value="/" />
+                           <String fx:value="*" />
+                       </FXCollections>
+                   </items>
+               </ChoiceBox>
+               <ChoiceBox fx:id="CBbase1" cache="true" layoutX="1024.0" layoutY="73.0" prefHeight="51.0" prefWidth="81.0">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="10" />
+                           <String fx:value="16" />
+                           <String fx:value="8" />
+
+                       </FXCollections>
+                   </items>
+               </ChoiceBox>
+               <ChoiceBox fx:id="CBbase2" cache="true" layoutX="1023.0" layoutY="268.0" prefHeight="51.0" prefWidth="81.0">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="10" />
+                           <String fx:value="16" />
+                           <String fx:value="8" />
+
+                       </FXCollections>
+                   </items>
+               </ChoiceBox>
+               <TextArea fx:id="TextArea3" layoutX="86.0" layoutY="437.0" prefHeight="127.0" prefWidth="930.0" />
+               <ChoiceBox fx:id="CBbase3" cache="true" layoutX="1023.0" layoutY="475.0" prefHeight="51.0" prefWidth="81.0">
+                   <items>
+                       <FXCollections fx:factory="observableArrayList">
+                           <String fx:value="10" />
+                           <String fx:value="16" />
+                           <String fx:value="8" />
+
+                       </FXCollections>
+                   </items>
+               </ChoiceBox>
+               <Button fx:id="Button" layoutX="541.0" layoutY="371.0" mnemonicParsing="false" prefHeight="51.0" prefWidth="54.0" text="=" textFill="#991212">
+                   <font>
+                       <Font name="Berlin Sans FB Bold" size="24.0" />
+                   </font>
+               </Button>
+               <Button fx:id="BM" layoutX="675.0" layoutY="175.0" mnemonicParsing="false" text="Button" />
+
+   </children>
+</AnchorPane>

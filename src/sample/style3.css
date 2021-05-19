@@ -1,0 +1,45 @@
+
+
+
+/*Кнопки*/
+.menu-item {
+   -fx-text-fill: #2485D7;
+       -fx-font-family: 'FreeMono', Arial, sans-serif;
+       -fx-font-size: 29pt;
+
+}
+.combo-box .cell{
+    -fx-text-fill: blue;
+    -fx-font: 16px "Arial";
+}
+.customcell {
+    -fx-text-fill: blue;
+    -fx-font: 16px "Arial";
+    /* No alternate highlighting */
+    -fx-background-color: #FFF;
+}
+.menu-item .label{
+    -fx-text-fill: greenyellow;
+    -fx-text-fill: #000000;
+           -fx-font-family: 'FreeMono', Arial, sans-serif;
+           -fx-font-size: 12pt;
+}
+.vbox {
+    -fx-border-color: #2e8b57;
+    -fx-border-width: 2px;
+    -fx-padding: 10;
+    -fx-spacing: 8;
+}
+
+#hbox-custom {
+    -fx-background-radius: 5.0;
+    -fx-padding: 8;
+    -fx-border-color: #2e8b57;
+        -fx-border-width: 2px;
+}
+#hbox {
+    -fx-background-radius: 5.0;
+    -fx-padding: 8;
+    -fx-border-color: #2e8b57;
+        -fx-border-width: 2px;
+}
